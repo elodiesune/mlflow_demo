@@ -12,7 +12,7 @@ from sklearn.pipeline import Pipeline
 if __name__ == "__main__":
 
     ### MLFLOW Experiment setup
-    experiment_name="default"
+    experiment_name="exp_doctolib"
     mlflow.set_experiment(experiment_name)
     experiment = mlflow.get_experiment_by_name(experiment_name)
 
